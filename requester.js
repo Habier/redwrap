@@ -200,4 +200,4 @@ filters.forEach(function (filter) {
 
 /*==========  EXPORTS  ==========*/
 
-exports.Requester = Requester;
+module.exports.Requester = Requester;

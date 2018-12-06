@@ -52,4 +52,4 @@ redwrap.list = function(filter, cb) {
   return (cb) ? requester.exe(cb) : requester;
 };
 
-exports = redwrap;
+module.exports = redwrap;
